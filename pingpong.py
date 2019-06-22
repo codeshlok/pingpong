@@ -10,11 +10,11 @@ y = 350
 x2 = 815
 y2 = 350
 #print pygame.K_SPACE
-playerImage = pygame.image.load("Player1.png")
+playerImage = pygame.image.load("images/Player1.png")
 playerImage = pygame.transform.scale(playerImage, (105,160))
 playerImage = playerImage.convert_alpha()
 
-playerImage2 = pygame.image.load("Player1.png")
+playerImage2 = pygame.image.load("images/Player1.png")
 playerImage2 = pygame.transform.scale(playerImage2, (105,160))
 playerImage2 = playerImage2.convert_alpha()
 
