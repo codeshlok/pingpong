@@ -52,3 +52,8 @@ while finished == False:
     pygame.draw.rect(screen, color, dividor)
     pygame.display.flip()
     frame.tick(90) #FPS Limit
+    if x + 50 >= 450:
+        x = x - 400
+
+    if x2 <= 450:
+        x2 = x2 + 400
